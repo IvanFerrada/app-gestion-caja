@@ -1,0 +1,150 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	/* -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; */
+}
+
+body {
+	background: #FAFAFA;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+
+.principal {
+	color: #fff;
+	background-color: #05FC19;
+}
+
+.principal .formulario{
+	color: #212121;
+	text-align: center;
+	background-attachment:fixed;
+}
+
+.principal .formulario input[type=text]{
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 14% !important;
+	margin-top: 100px;
+	color:gray;
+}
+.principal .formulario input[type=number]{
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 14% !important;
+	margin-top: 100px;
+	color:gray;
+	
+}
+
+.principal .formulario input[type=text].error{
+	border: 5px solid #D32F2F;
+	color: red;
+	
+}
+.buttonInput{
+	margin: 0px auto;
+	text-align: center !important;
+	align-content: center;
+	margin-left: 20px;
+}
+
+.principal .formulario .buttonInput{
+	border: 1px solid white;
+	color: gray;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.principal .formulario .buttonInput:hover{
+	border: 1px solid #fff;
+}
+
+/* - Tareas - */
+.tareas{
+	width: 100%;
+	height: 361px;
+	overflow-x: hidden;
+}
+.tareas .lista{
+	list-style: none;
+	text-align: center;
+}
+
+.tareas .lista li{
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.tareas .lista li a{
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.tareas .lista li a:hover{
+	text-decoration: line-through;
+}
+
+
+
+
+
+.alerta{
+	width: 100%;
+	height: 300px;
+	text-align: center;
+	background-color: white;
+	opacity: 0.5;
+	margin: 0px auto;
+	margin-top: -20px;
+	padding-top: 50px;
+
+}
+
+
+ 
+#btnLista{
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 100px;
+	color: grey;
+	background-color:white;
+	left: 90%;
+	
+}
+
+
+
+
+#compras{
+	width: 100%;
+	height: 600px;
+	border: 1px red solid;
+}
+
+
+.save{
+	position: relative;
+	width: 100%;
+	height: 80px;
+	border: 1px solid black;
+	background-color: #F02310;
+	text-align: center;
+}
+
+#btnTotal{
+	position: relative;
+	border: 1px solid white;
+	color: gray;
+	display: inline-block;
+	font-size: 16px;
+	padding: 10px;
+	top: 18px;
+}

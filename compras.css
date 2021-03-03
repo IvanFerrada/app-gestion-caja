@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* inputs data */
+
+#formularioAgregar{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.principal .formulario input[type=text].error{
+	border: 5px solid #D32F2F;
+    color: red;
+    
+	
+}
+
+ 
+#productoEntrada{
+    width:200px;
+    height: 30px;
+    text-align: center;
+}
+
+#precioInput{
+    width:100px;
+    height: 30px;
+    text-align: center;
+}
+#fechaInput{
+    width: 142px;
+    height: 30px;
+    text-align: center;
+}
+
+
+input[type=button]{
+    width: 100px;
+    height: 30px;
+    margin: 0px auto;
+	text-align: center !important;
+	align-content: center;
+    margin-left: 20px;
+    padding: 1px;
+    text-align: center;
+}
+
+/* inputs data */
+
+
+/* form menu */
+#labelOne{
+    width: 100%;
+    height: 40px;
+    border: 1px gray solid;
+    background-color:#6377DB;
+    margin-bottom: 20px;
+}
+
+#compras{
+    width: 25%;
+    text-align: center;
+  
+}
+#precio{
+    width: 25%;
+    text-align: center;
+}
+#fecha{
+    width: 25%;
+    text-align: center;
+}
+#eliminar{
+    width: 25%;
+    text-align: center;
+}
+/* form menu */
+
+
+
+/* for ouput lista */
+.producto ul{
+    padding: 0px;
+  
+}
+.producto li{
+    width: 100%;
+    height: 26px;
+    list-style: none;
+   
+} 
+.producto .lista li{
+    width: 100%;
+    height: 26px;
+    border-bottom: 1px solid #b6b6b6;
+    margin-bottom: 20px;
+}
+
+.producto ul li{
+    width: 25%;
+}
+
+.producto .lista li a{
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    color: gray;
+   
+}
+#labelSecond{
+    width: 100%;
+    height: 40px;
+    
+}
+.producto{
+    width: 100%;
+    height: 400px;
+    overflow-x: hidden;
+    
+}
+
+#one{
+    /* display:list-item; */
+    /* text-decoration: none; */
+    /* list-style: none; */
+    /* text-align: center; */
+    width: 25%;
+    height: 26px;
+    float: left;
+    color: black;
+    
+} 
+
+#dos{
+    /* display: flex; */
+    /* list-style: none; */
+    /* display: list-item; */
+    /* align-items: flex-end; */
+    /* text-decoration: none; */
+    width: 25%;
+    height: 26px;
+    float: left;
+    color: black;
+    
+}
+#tres{
+    /* list-style: none; */
+    /* text-decoration: none; */
+    width: 25%;
+    height: 26px;
+    float: left;
+    color: black;
+ 
+}
+
+#btnDelete{
+    display:list-item;
+    width: 25%; 
+    height: 26px;
+    float: right;
+    text-align: center;
+    color: grey;
+    background-color:white;
+    border-bottom: 1px solid #b6b6b6;
+    border: black solid 1px;
+        
+    
+ 
+}
+
+#saveEstilos{
+    width: 100%;
+    height: 78px;
+    background-color: #3CFAB4;
+    margin: 0px auto;
+    text-align: center;
+    padding: 25px;
+    border-top: 1px solid gray;
+}
+
+.saveBtn{
+    width: 100px;
+    height: 30px;
+    margin: 0px auto;
+	text-align: center !important;
+	align-content: center;
+    margin-left: 20px;
+    padding: 1px;
+    text-align: center;
+    border: 1px grey solid;
+    border-radius: 2px;
+}
+
+
+/* for ouput lista */
+
